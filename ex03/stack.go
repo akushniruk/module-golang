@@ -1,7 +1,7 @@
-package stack
+package ex03
 
 type Stack struct {
-	stack []int
+	StackArray []int
 }
 
 func New() *Stack {
@@ -9,12 +9,12 @@ func New() *Stack {
 }
 
 func (stack *Stack) Push(num int) {
-	stack.stack = append(stack.stack, num)
+	stack.StackArray = append(stack.StackArray, num)
 }
 
 func (stack *Stack) Pop() int {
-	len := len(stack.stack)
-	num := stack.stack[len-1]
-	stack.stack = stack.stack[:len-1]
+	len := len(stack.StackArray)
+	num := stack.StackArray[len-1]
+	stack.StackArray = stack.StackArray[:len-1]
 	return num
 }
