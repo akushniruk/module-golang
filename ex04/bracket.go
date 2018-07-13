@@ -3,7 +3,7 @@ package brackets
 import "ex03"
 
 func Bracket(str string) (bool, error) {
-	var stack *Stack = New()
+	stack := ex03.New()
 
 	for count := range str {
 		switch string(str[count]) {
@@ -14,21 +14,21 @@ func Bracket(str string) (bool, error) {
 		case "(":
 			stack.Push('(')
 		case "}":
-			if len(stack.stack) != 0 {
+			if len(stack.StackArray) != 0 {
 				temp := stack.Pop()
 				if temp != '{' {
 					return false, nil
 				}
 			}
 		case "]":
-			if len(stack.stack) != 0 {
+			if len(stack.StackArray) != 0 {
 				temp := stack.Pop()
 				if temp != '[' {
 					return false, nil
 				}
 			}
 		case ")":
-			if len(stack.stack) != 0 {
+			if len(stack.StackArray) != 0 {
 				temp := stack.Pop()
 				if temp != '(' {
 					return false, nil
@@ -39,5 +39,5 @@ func Bracket(str string) (bool, error) {
 		}
 	}
 
-	return len(stack.stack) == 0, nil
+	return len(stack.StackArray) == 0, nil
 }
