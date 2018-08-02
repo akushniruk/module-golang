@@ -1,6 +1,9 @@
 package orderbook
 
-import "sort"
+import (
+	"fmt"
+	"sort"
+)
 
 type Orderbook struct {
 	Bids []*Order
@@ -16,35 +19,39 @@ func New() *Orderbook {
 
 func (orderbook *Orderbook) Match(order *Order) ([]*Trade, *Order) {
 	switch order.Side {
-	case SideBid:
-		return orderbook.TradeBids(order)
 	case SideAsk:
 		return orderbook.TradeAsks(order)
+	case SideBid:
+		return orderbook.TradeBids(order)
 	}
 
 	return nil, nil
 }
 
-func (orderbook *Orderbook) AddTo(order *Order) {
-	switch order.Side {
-	case SideAsk:
-		{
-			index := sort.Search(len(orderbook.Bids), func(i int) bool { return orderbook.Bids[i].Price > order.Price })
-			orderbook.Bids = Append(order, orderbook.Bids, index)
+func (orderbook *Orderbook) check(Add []*Order) bool {
+	for i := 0; i < len(Add); i++ {
+		if orderbook.Asks[i] == Add[i] {
+			return true
 		}
-	case SideBid:
-		{
-			index := sort.Search(len(orderbook.Asks), func(i int) bool { return orderbook.Asks[i].Price < order.Price })
-			orderbook.Asks = Append(order, orderbook.Asks, index)
-		}
+	}
+	return false
+}
+
+func (orderbook *Orderbook) Sort(order *Order, Add []*Order) int {
+	if orderbook.check(Add) {
+		return sort.Search(len(Add), func(i int) bool { return Add[i].Price < order.Price })
+	} else {
+		return sort.Search(len(Add), func(i int) bool { return Add[i].Price > order.Price })
 	}
 }
 
-func Append(order *Order, Add []*Order, index int) []*Order {
+func (orderbook *Orderbook) AddTo(order *Order, Add *[]*Order) {
+	//	index := sort.Search(len(Add), func(i int) bool { return Add[i].Price < order.Price })
+	index := orderbook.Sort(order, Add)
 	Add = append(Add, order)
-	copy(Add[index+1:], Add[:])
+	copy(Add[index+1:], Add[index:])
 	Add[index] = order
-	return Add
+	fmt.Println("INSIDE ADDTO:", *Add)
 }
 
 func (orderbook *Orderbook) TradeAsks(order *Order) ([]*Trade, *Order) {
@@ -73,7 +80,8 @@ func (orderbook *Orderbook) TradeAsks(order *Order) ([]*Trade, *Order) {
 	if order.Kind == 1 {
 		return trades, order
 	} else {
-		orderbook.AddTo(order)
+		orderbook.AddTo(order, &orderbook.Bids)
+		fmt.Println("BIDS:", orderbook.Bids)
 	}
 	return trades, nil
 
@@ -107,7 +115,8 @@ func (orderbook *Orderbook) TradeBids(order *Order) ([]*Trade, *Order) {
 	if order.Kind == 1 {
 		return trades, order
 	} else {
-		orderbook.AddTo(order)
+		orderbook.AddTo(order, &orderbook.Asks)
+		fmt.Println("ASKS:", orderbook.Asks)
 	}
 	return trades, nil
 }
