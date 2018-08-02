@@ -1,0 +1,14 @@
+needFix
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Tue Jul 31 17:10:44 2018 +0300
+#
+# On branch ex07
+# Changes to be committed:
+#	new file:   goroutines/goroutines.go
+#	new file:   goroutines/goroutines_test.go
+#	new file:   goroutines/source.go
+#	new file:   main1.go
+#

@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 7957ce64fb4f96559d013958330cae8f85139725 fouren <andrewfouren677@gmail.com> 1531217767 +0300	fetch --append base: storing head
+7957ce64fb4f96559d013958330cae8f85139725 bcc10c6d45fdccc4717cf029dc57869863ddc80d fouren <andrewfouren677@gmail.com> 1531897922 +0300	fetch --append base: fast-forward
+bcc10c6d45fdccc4717cf029dc57869863ddc80d c94959666a00870a73a8b10e581db5bad26bfcd7 fouren <andrewfouren677@gmail.com> 1532352688 +0300	fetch base master: fast-forward
+c94959666a00870a73a8b10e581db5bad26bfcd7 1a6585697e43734570ce9b86a2f3db0ceb21df93 fouren <andrewfouren677@gmail.com> 1533022483 +0300	fetch --append base: fast-forward

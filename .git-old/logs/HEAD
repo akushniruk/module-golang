@@ -1,0 +1,145 @@
+0000000000000000000000000000000000000000 5156e232f42b0ae13dccf885817be920984d0ff2 fouren <andrewfouren677@gmail.com> 1531140128 +0300	clone: from git@github.com:akushniruk/module-golang.git
+5156e232f42b0ae13dccf885817be920984d0ff2 5156e232f42b0ae13dccf885817be920984d0ff2 fouren <andrewfouren677@gmail.com> 1531141950 +0300	checkout: moving from master to ex01
+5156e232f42b0ae13dccf885817be920984d0ff2 c0199f51daffca4183432847657c7c7ed2defde1 fouren <andrewfouren677@gmail.com> 1531141978 +0300	commit: ex01_done
+c0199f51daffca4183432847657c7c7ed2defde1 5156e232f42b0ae13dccf885817be920984d0ff2 fouren <andrewfouren677@gmail.com> 1531216944 +0300	checkout: moving from ex01 to master
+5156e232f42b0ae13dccf885817be920984d0ff2 5156e232f42b0ae13dccf885817be920984d0ff2 fouren <andrewfouren677@gmail.com> 1531217125 +0300	rebase: checkout refs/remotes/origin/master
+5156e232f42b0ae13dccf885817be920984d0ff2 5156e232f42b0ae13dccf885817be920984d0ff2 fouren <andrewfouren677@gmail.com> 1531217125 +0300	rebase finished: returning to refs/heads/master
+5156e232f42b0ae13dccf885817be920984d0ff2 5156e232f42b0ae13dccf885817be920984d0ff2 fouren <andrewfouren677@gmail.com> 1531217156 +0300	rebase: checkout master
+5156e232f42b0ae13dccf885817be920984d0ff2 5156e232f42b0ae13dccf885817be920984d0ff2 fouren <andrewfouren677@gmail.com> 1531217573 +0300	rebase: checkout refs/remotes/origin/master
+5156e232f42b0ae13dccf885817be920984d0ff2 5156e232f42b0ae13dccf885817be920984d0ff2 fouren <andrewfouren677@gmail.com> 1531217573 +0300	rebase finished: returning to refs/heads/master
+5156e232f42b0ae13dccf885817be920984d0ff2 7957ce64fb4f96559d013958330cae8f85139725 fouren <andrewfouren677@gmail.com> 1531217772 +0300	rebase: checkout base/master
+7957ce64fb4f96559d013958330cae8f85139725 7957ce64fb4f96559d013958330cae8f85139725 fouren <andrewfouren677@gmail.com> 1531217772 +0300	rebase finished: returning to refs/heads/master
+7957ce64fb4f96559d013958330cae8f85139725 c0199f51daffca4183432847657c7c7ed2defde1 fouren <andrewfouren677@gmail.com> 1531220695 +0300	checkout: moving from master to ex01
+c0199f51daffca4183432847657c7c7ed2defde1 7957ce64fb4f96559d013958330cae8f85139725 fouren <andrewfouren677@gmail.com> 1531223001 +0300	checkout: moving from ex01 to master
+7957ce64fb4f96559d013958330cae8f85139725 c0199f51daffca4183432847657c7c7ed2defde1 fouren <andrewfouren677@gmail.com> 1531223140 +0300	checkout: moving from master to ex01
+c0199f51daffca4183432847657c7c7ed2defde1 7957ce64fb4f96559d013958330cae8f85139725 fouren <andrewfouren677@gmail.com> 1531223199 +0300	checkout: moving from ex01 to master
+7957ce64fb4f96559d013958330cae8f85139725 c0199f51daffca4183432847657c7c7ed2defde1 fouren <andrewfouren677@gmail.com> 1531230783 +0300	checkout: moving from master to ex01
+c0199f51daffca4183432847657c7c7ed2defde1 7957ce64fb4f96559d013958330cae8f85139725 fouren <andrewfouren677@gmail.com> 1531230801 +0300	rebase: checkout origin/master
+7957ce64fb4f96559d013958330cae8f85139725 5f36d8edc707b765a3011aeb8a0b2948b50e9548 fouren <andrewfouren677@gmail.com> 1531230801 +0300	rebase: ex01_done
+5f36d8edc707b765a3011aeb8a0b2948b50e9548 5f36d8edc707b765a3011aeb8a0b2948b50e9548 fouren <andrewfouren677@gmail.com> 1531230801 +0300	rebase finished: returning to refs/heads/ex01
+5f36d8edc707b765a3011aeb8a0b2948b50e9548 7957ce64fb4f96559d013958330cae8f85139725 fouren <andrewfouren677@gmail.com> 1531230828 +0300	checkout: moving from ex01 to master
+7957ce64fb4f96559d013958330cae8f85139725 5f36d8edc707b765a3011aeb8a0b2948b50e9548 fouren <andrewfouren677@gmail.com> 1531230831 +0300	checkout: moving from master to ex01
+5f36d8edc707b765a3011aeb8a0b2948b50e9548 7957ce64fb4f96559d013958330cae8f85139725 fouren <andrewfouren677@gmail.com> 1531230836 +0300	checkout: moving from ex01 to master
+7957ce64fb4f96559d013958330cae8f85139725 5f36d8edc707b765a3011aeb8a0b2948b50e9548 fouren <andrewfouren677@gmail.com> 1531236281 +0300	checkout: moving from master to ex01
+5f36d8edc707b765a3011aeb8a0b2948b50e9548 7957ce64fb4f96559d013958330cae8f85139725 fouren <andrewfouren677@gmail.com> 1531236651 +0300	checkout: moving from ex01 to master
+7957ce64fb4f96559d013958330cae8f85139725 7957ce64fb4f96559d013958330cae8f85139725 fouren <andrewfouren677@gmail.com> 1531322879 +0300	checkout: moving from master to ex02
+7957ce64fb4f96559d013958330cae8f85139725 857dca01d56a64b066b81868ab1a429266b64270 fouren <andrewfouren677@gmail.com> 1531322904 +0300	commit: ex02_done
+857dca01d56a64b066b81868ab1a429266b64270 7957ce64fb4f96559d013958330cae8f85139725 fouren <andrewfouren677@gmail.com> 1531322932 +0300	checkout: moving from ex02 to master
+7957ce64fb4f96559d013958330cae8f85139725 5f36d8edc707b765a3011aeb8a0b2948b50e9548 fouren <andrewfouren677@gmail.com> 1531323015 +0300	merge ex01: Fast-forward
+5f36d8edc707b765a3011aeb8a0b2948b50e9548 c423f4f2688716e99790dae0a598e0b12c9c98b9 fouren <andrewfouren677@gmail.com> 1531323026 +0300	merge ex02: Merge made by the 'recursive' strategy.
+c423f4f2688716e99790dae0a598e0b12c9c98b9 c423f4f2688716e99790dae0a598e0b12c9c98b9 fouren <andrewfouren677@gmail.com> 1531470797 +0300	checkout: moving from master to ex03
+c423f4f2688716e99790dae0a598e0b12c9c98b9 4023353ca71da0fdc6c1dd27f4a0f7011fa57145 fouren <andrewfouren677@gmail.com> 1531470852 +0300	rebase: checkout origin/ex03
+4023353ca71da0fdc6c1dd27f4a0f7011fa57145 4023353ca71da0fdc6c1dd27f4a0f7011fa57145 fouren <andrewfouren677@gmail.com> 1531470852 +0300	rebase finished: returning to refs/heads/ex03
+4023353ca71da0fdc6c1dd27f4a0f7011fa57145 4023353ca71da0fdc6c1dd27f4a0f7011fa57145 fouren <andrewfouren677@gmail.com> 1531470863 +0300	rebase: checkout ex03
+4023353ca71da0fdc6c1dd27f4a0f7011fa57145 c423f4f2688716e99790dae0a598e0b12c9c98b9 fouren <andrewfouren677@gmail.com> 1531470875 +0300	checkout: moving from ex03 to master
+c423f4f2688716e99790dae0a598e0b12c9c98b9 4023353ca71da0fdc6c1dd27f4a0f7011fa57145 fouren <andrewfouren677@gmail.com> 1531470886 +0300	merge ex03: Fast-forward
+4023353ca71da0fdc6c1dd27f4a0f7011fa57145 4023353ca71da0fdc6c1dd27f4a0f7011fa57145 fouren <andrewfouren677@gmail.com> 1531478837 +0300	checkout: moving from master to ex04
+4023353ca71da0fdc6c1dd27f4a0f7011fa57145 6f7cab8deee991d0fc68958cd777b460f7ee45be fouren <andrewfouren677@gmail.com> 1531478909 +0300	commit: ex04_done
+6f7cab8deee991d0fc68958cd777b460f7ee45be 4023353ca71da0fdc6c1dd27f4a0f7011fa57145 fouren <andrewfouren677@gmail.com> 1531478939 +0300	checkout: moving from ex04 to master
+4023353ca71da0fdc6c1dd27f4a0f7011fa57145 6f7cab8deee991d0fc68958cd777b460f7ee45be fouren <andrewfouren677@gmail.com> 1531478950 +0300	merge ex04: Fast-forward
+6f7cab8deee991d0fc68958cd777b460f7ee45be 6de792d5e4c3a0d2d3f189387c5e82ac15eb0bae fouren <andrewfouren677@gmail.com> 1531479117 +0300	commit (amend): ex04_done
+6de792d5e4c3a0d2d3f189387c5e82ac15eb0bae 4023353ca71da0fdc6c1dd27f4a0f7011fa57145 fouren <andrewfouren677@gmail.com> 1531479357 +0300	reset: moving to HEAD~1
+4023353ca71da0fdc6c1dd27f4a0f7011fa57145 f7a8d1e81fcbfc07039839b1dbb3724e707a3251 fouren <andrewfouren677@gmail.com> 1531479411 +0300	commit: ex01_done
+f7a8d1e81fcbfc07039839b1dbb3724e707a3251 6ada5933bf42f86982fa44604bb377803cb31968 fouren <andrewfouren677@gmail.com> 1531479484 +0300	commit: ex04
+6ada5933bf42f86982fa44604bb377803cb31968 6f7cab8deee991d0fc68958cd777b460f7ee45be fouren <andrewfouren677@gmail.com> 1531479528 +0300	checkout: moving from master to ex04
+6f7cab8deee991d0fc68958cd777b460f7ee45be 0792fee0e82edc6a9b50caf3bf47aca5a9a6a62c fouren <andrewfouren677@gmail.com> 1531479613 +0300	pull origin master: Merge made by the 'recursive' strategy.
+0792fee0e82edc6a9b50caf3bf47aca5a9a6a62c 0fca4a0b5c494d215141bbd9159feaab80d78a19 fouren <andrewfouren677@gmail.com> 1531479669 +0300	commit: fix
+0fca4a0b5c494d215141bbd9159feaab80d78a19 e03f4e8406c7bddb39fb329781bdd0f70e944671 fouren <andrewfouren677@gmail.com> 1531481299 +0300	commit (amend): ex04_done
+e03f4e8406c7bddb39fb329781bdd0f70e944671 d1b507a0c98db22ef24c0f5ed4d4cf88650a308e fouren <andrewfouren677@gmail.com> 1531482496 +0300	commit (amend): ex04_done
+d1b507a0c98db22ef24c0f5ed4d4cf88650a308e 6ada5933bf42f86982fa44604bb377803cb31968 fouren <andrewfouren677@gmail.com> 1531482611 +0300	checkout: moving from ex04 to master
+6ada5933bf42f86982fa44604bb377803cb31968 d1b507a0c98db22ef24c0f5ed4d4cf88650a308e fouren <andrewfouren677@gmail.com> 1531482618 +0300	merge ex04: Fast-forward
+d1b507a0c98db22ef24c0f5ed4d4cf88650a308e 4023353ca71da0fdc6c1dd27f4a0f7011fa57145 fouren <andrewfouren677@gmail.com> 1531483263 +0300	checkout: moving from master to ex03
+4023353ca71da0fdc6c1dd27f4a0f7011fa57145 14c77f8e446ee5901c43f6904d122210a5d75758 fouren <andrewfouren677@gmail.com> 1531483311 +0300	commit (amend): ex03_done
+14c77f8e446ee5901c43f6904d122210a5d75758 d1b507a0c98db22ef24c0f5ed4d4cf88650a308e fouren <andrewfouren677@gmail.com> 1531483353 +0300	checkout: moving from ex03 to master
+d1b507a0c98db22ef24c0f5ed4d4cf88650a308e c4a16203be4ce4dbbb4bc21d177bd569427c3219 fouren <andrewfouren677@gmail.com> 1531483437 +0300	commit (merge): fix
+c4a16203be4ce4dbbb4bc21d177bd569427c3219 c4a16203be4ce4dbbb4bc21d177bd569427c3219 fouren <andrewfouren677@gmail.com> 1531747202 +0300	checkout: moving from master to ex06
+c4a16203be4ce4dbbb4bc21d177bd569427c3219 c02bbf6c53d9d185ed807d93c4d1c42b02f9ae55 fouren <andrewfouren677@gmail.com> 1531747211 +0300	commit: ex06
+c02bbf6c53d9d185ed807d93c4d1c42b02f9ae55 c4a16203be4ce4dbbb4bc21d177bd569427c3219 fouren <andrewfouren677@gmail.com> 1531747231 +0300	checkout: moving from ex06 to master
+c4a16203be4ce4dbbb4bc21d177bd569427c3219 c02bbf6c53d9d185ed807d93c4d1c42b02f9ae55 fouren <andrewfouren677@gmail.com> 1531747239 +0300	merge ex06: Fast-forward
+c02bbf6c53d9d185ed807d93c4d1c42b02f9ae55 bcc10c6d45fdccc4717cf029dc57869863ddc80d fouren <andrewfouren677@gmail.com> 1531897949 +0300	rebase: checkout base/master
+bcc10c6d45fdccc4717cf029dc57869863ddc80d c03479390cb95f11b588f09cb0ee0d0e864648ff fouren <andrewfouren677@gmail.com> 1531897949 +0300	rebase: ex01_done
+c03479390cb95f11b588f09cb0ee0d0e864648ff 80d3658ed368adce4247987de2d2d1ae880d5c31 fouren <andrewfouren677@gmail.com> 1531897949 +0300	rebase: ex02_done
+80d3658ed368adce4247987de2d2d1ae880d5c31 9bea21417d4e417924e93ca08d2eed8a21bde9fa fouren <andrewfouren677@gmail.com> 1531897949 +0300	rebase: ex03_done
+9bea21417d4e417924e93ca08d2eed8a21bde9fa f661a485db4d3a76683bf95e72d841168f2c601a fouren <andrewfouren677@gmail.com> 1531897949 +0300	rebase: ex04_done
+f661a485db4d3a76683bf95e72d841168f2c601a 8ee5ea0da6ad9062ca06b3b2015e56d2aebb4fcb fouren <andrewfouren677@gmail.com> 1531897949 +0300	rebase: ex01_done
+8ee5ea0da6ad9062ca06b3b2015e56d2aebb4fcb 9ed09840184ef1b18d49995d72551d182cb9d44e fouren <andrewfouren677@gmail.com> 1531897949 +0300	rebase: ex04_done
+9ed09840184ef1b18d49995d72551d182cb9d44e 14ca15ceba2656c710295b7aa78820453a62009c fouren <andrewfouren677@gmail.com> 1531898117 +0300	rebase: ex03_done
+14ca15ceba2656c710295b7aa78820453a62009c dac48ae111547b2d573c096104ef223d99d6159c fouren <andrewfouren677@gmail.com> 1531898117 +0300	rebase: ex06
+dac48ae111547b2d573c096104ef223d99d6159c dac48ae111547b2d573c096104ef223d99d6159c fouren <andrewfouren677@gmail.com> 1531898117 +0300	rebase finished: returning to refs/heads/master
+dac48ae111547b2d573c096104ef223d99d6159c 8984fcf7bf59c340982bf73354f12935c259c7c3 fouren <andrewfouren677@gmail.com> 1531898159 +0300	pull: Merge made by the 'recursive' strategy.
+8984fcf7bf59c340982bf73354f12935c259c7c3 8984fcf7bf59c340982bf73354f12935c259c7c3 fouren <andrewfouren677@gmail.com> 1531903011 +0300	checkout: moving from master to ex07
+8984fcf7bf59c340982bf73354f12935c259c7c3 ce1434bfda6eefe42514e54fbf39459ff7b5c273 fouren <andrewfouren677@gmail.com> 1531903041 +0300	commit: ex07_done
+ce1434bfda6eefe42514e54fbf39459ff7b5c273 8984fcf7bf59c340982bf73354f12935c259c7c3 fouren <andrewfouren677@gmail.com> 1531903128 +0300	checkout: moving from ex07 to master
+8984fcf7bf59c340982bf73354f12935c259c7c3 8984fcf7bf59c340982bf73354f12935c259c7c3 fouren <andrewfouren677@gmail.com> 1531907038 +0300	checkout: moving from master to 09
+8984fcf7bf59c340982bf73354f12935c259c7c3 7eec2cc6aa39d3c3bd31f64167745c28b01e97bf fouren <andrewfouren677@gmail.com> 1531907052 +0300	commit: ex09_done
+7eec2cc6aa39d3c3bd31f64167745c28b01e97bf 8984fcf7bf59c340982bf73354f12935c259c7c3 fouren <andrewfouren677@gmail.com> 1531907067 +0300	checkout: moving from 09 to master
+8984fcf7bf59c340982bf73354f12935c259c7c3 8984fcf7bf59c340982bf73354f12935c259c7c3 fouren <andrewfouren677@gmail.com> 1531907086 +0300	checkout: moving from master to ex09
+8984fcf7bf59c340982bf73354f12935c259c7c3 8984fcf7bf59c340982bf73354f12935c259c7c3 fouren <andrewfouren677@gmail.com> 1531907120 +0300	checkout: moving from ex09 to master
+8984fcf7bf59c340982bf73354f12935c259c7c3 8984fcf7bf59c340982bf73354f12935c259c7c3 fouren <andrewfouren677@gmail.com> 1531907138 +0300	checkout: moving from master to ex09
+8984fcf7bf59c340982bf73354f12935c259c7c3 ebeed8af418c5bc3bcc3491c3d52fafc3a5b6164 fouren <andrewfouren677@gmail.com> 1531907215 +0300	commit: ex09_done
+ebeed8af418c5bc3bcc3491c3d52fafc3a5b6164 8984fcf7bf59c340982bf73354f12935c259c7c3 fouren <andrewfouren677@gmail.com> 1531907232 +0300	checkout: moving from ex09 to master
+8984fcf7bf59c340982bf73354f12935c259c7c3 ce1434bfda6eefe42514e54fbf39459ff7b5c273 fouren <andrewfouren677@gmail.com> 1531907238 +0300	merge ex07: Fast-forward
+ce1434bfda6eefe42514e54fbf39459ff7b5c273 ce39ca092a940fe75652dc3a8e30dd2a4da408b9 fouren <andrewfouren677@gmail.com> 1531907240 +0300	merge ex09: Merge made by the 'recursive' strategy.
+ce39ca092a940fe75652dc3a8e30dd2a4da408b9 c8d94135f19fb31ef455b8acd908fd6528489ee5 fouren <andrewfouren677@gmail.com> 1532352155 +0300	commit (amend): Merge branch 'ex09'
+c8d94135f19fb31ef455b8acd908fd6528489ee5 7cbe05bfc32aa6f218b5fc8fd4ddf0aedced5c17 fouren <andrewfouren677@gmail.com> 1532352203 +0300	commit (amend): Merge branch 'ex09'
+7cbe05bfc32aa6f218b5fc8fd4ddf0aedced5c17 bcc10c6d45fdccc4717cf029dc57869863ddc80d fouren <andrewfouren677@gmail.com> 1532352223 +0300	rebase: checkout base/master
+bcc10c6d45fdccc4717cf029dc57869863ddc80d a17e03a4dd4cfb76a2993fba57b414a828f67f06 fouren <andrewfouren677@gmail.com> 1532352223 +0300	rebase: ex01_done
+a17e03a4dd4cfb76a2993fba57b414a828f67f06 2f84d8707fd708ea4d7a53217b3331cb4aae34c9 fouren <andrewfouren677@gmail.com> 1532352223 +0300	rebase: ex02_done
+2f84d8707fd708ea4d7a53217b3331cb4aae34c9 d2a42fa225b1c299125246c613375da7cfaf2046 fouren <andrewfouren677@gmail.com> 1532352223 +0300	rebase: ex03_done
+d2a42fa225b1c299125246c613375da7cfaf2046 aa4b4faf1226d62a4ac0acca09b49c8ba4d4218c fouren <andrewfouren677@gmail.com> 1532352223 +0300	rebase: ex04_done
+aa4b4faf1226d62a4ac0acca09b49c8ba4d4218c 27c8e60740e30fe0389ea7d0faaa6ac2d5e3317b fouren <andrewfouren677@gmail.com> 1532352223 +0300	rebase: ex01_done
+27c8e60740e30fe0389ea7d0faaa6ac2d5e3317b 908e67089167d6f836518a5fe1b3aa46f2d79ad9 fouren <andrewfouren677@gmail.com> 1532352223 +0300	rebase: ex04_done
+908e67089167d6f836518a5fe1b3aa46f2d79ad9 b59d93f5ca189a52fef3b264bb6a8f98fb4758aa fouren <andrewfouren677@gmail.com> 1532352269 +0300	rebase: ex03_done
+b59d93f5ca189a52fef3b264bb6a8f98fb4758aa 01497ceb76b4c98e1f9b4095836a21990fa4f782 fouren <andrewfouren677@gmail.com> 1532352269 +0300	rebase: ex06
+01497ceb76b4c98e1f9b4095836a21990fa4f782 a11c2edaa047d050d6ed320ab1c140954e2327da fouren <andrewfouren677@gmail.com> 1532352269 +0300	rebase: ex05_done
+a11c2edaa047d050d6ed320ab1c140954e2327da 43e9ba7567860aa0e704806d1348f43481195419 fouren <andrewfouren677@gmail.com> 1532352269 +0300	rebase: ex01_done
+43e9ba7567860aa0e704806d1348f43481195419 810789c71fdd78253eb3012e8c5a3999e058b3d5 fouren <andrewfouren677@gmail.com> 1532352331 +0300	rebase: ex03_done
+810789c71fdd78253eb3012e8c5a3999e058b3d5 e2b3d84793fd09b68fd65a7893a1e502895c8861 fouren <andrewfouren677@gmail.com> 1532352467 +0300	rebase: ex04_done
+e2b3d84793fd09b68fd65a7893a1e502895c8861 21732d0abc2c58803d40e7aeb77162f46fe45081 fouren <andrewfouren677@gmail.com> 1532352467 +0300	rebase: ex01_done
+21732d0abc2c58803d40e7aeb77162f46fe45081 abab03c97b7ac10523834110bc0f080a5829a9f7 fouren <andrewfouren677@gmail.com> 1532352510 +0300	rebase: ex03_done
+abab03c97b7ac10523834110bc0f080a5829a9f7 9eefe803f30b940508638ff21635641706173876 fouren <andrewfouren677@gmail.com> 1532352510 +0300	rebase: ex07_done
+9eefe803f30b940508638ff21635641706173876 9507194bf044bb294b4a45db5029221316b62361 fouren <andrewfouren677@gmail.com> 1532352510 +0300	rebase: ex09_done
+9507194bf044bb294b4a45db5029221316b62361 9507194bf044bb294b4a45db5029221316b62361 fouren <andrewfouren677@gmail.com> 1532352510 +0300	rebase finished: returning to refs/heads/master
+9507194bf044bb294b4a45db5029221316b62361 c94959666a00870a73a8b10e581db5bad26bfcd7 fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: checkout base/master
+c94959666a00870a73a8b10e581db5bad26bfcd7 401f743872bb6fbf8672bd709ce1185a472bf767 fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex01_done
+401f743872bb6fbf8672bd709ce1185a472bf767 3a91f471f519c1e2a4fb1848526bc8c0a65d343c fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex02_done
+3a91f471f519c1e2a4fb1848526bc8c0a65d343c d49ed4632a88d018703e00a505eb7d7115fca997 fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex03_done
+d49ed4632a88d018703e00a505eb7d7115fca997 c1e6a8dfbd40e16d6f1b9227d0e1d764e059d46b fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex04_done
+c1e6a8dfbd40e16d6f1b9227d0e1d764e059d46b ddb09f380ac28b0e0cc002fab98081e5179175d3 fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex01_done
+ddb09f380ac28b0e0cc002fab98081e5179175d3 ea357a8783c124cf420d09109cac3ffde28a9a08 fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex04_done
+ea357a8783c124cf420d09109cac3ffde28a9a08 0757c37c4e425fa873f44538eb4fd63e037cff41 fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex03_done
+0757c37c4e425fa873f44538eb4fd63e037cff41 2c6f878850a69c34f5c14eda229f591de1a09601 fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex06
+2c6f878850a69c34f5c14eda229f591de1a09601 5ed3cfe03ed46f7a1742116da29fbdc86d8a049b fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex05_done
+5ed3cfe03ed46f7a1742116da29fbdc86d8a049b b2b8de98baa83542767a181c9ff95dba62d1fe5a fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex01_done
+b2b8de98baa83542767a181c9ff95dba62d1fe5a 22f8b8368b09e6454dfc508a6f66ee0b67af15d7 fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex03_done
+22f8b8368b09e6454dfc508a6f66ee0b67af15d7 0028cf1749211d8f31fd48ccc0caa361126edd10 fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex04_done
+0028cf1749211d8f31fd48ccc0caa361126edd10 0fe730c6d12ba42ca0a9530e3725d4f9915f16a4 fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex01_done
+0fe730c6d12ba42ca0a9530e3725d4f9915f16a4 c2a9ec2477f7a19a9a8bf158363257ee3c140ce1 fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex03_done
+c2a9ec2477f7a19a9a8bf158363257ee3c140ce1 fb2062ccc062c965187977bf189f75b67b65c178 fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex07_done
+fb2062ccc062c965187977bf189f75b67b65c178 163f11227e5ea77f0560a8f004a3aee9897f02ab fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase: ex09_done
+163f11227e5ea77f0560a8f004a3aee9897f02ab 163f11227e5ea77f0560a8f004a3aee9897f02ab fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase finished: returning to refs/heads/master
+163f11227e5ea77f0560a8f004a3aee9897f02ab 9e7a3625389a71293bb52d69fd614b6321683404 fouren <andrewfouren677@gmail.com> 1532352713 +0300	commit (amend): ex09_done
+9e7a3625389a71293bb52d69fd614b6321683404 9e7a3625389a71293bb52d69fd614b6321683404 fouren <andrewfouren677@gmail.com> 1532441395 +0300	checkout: moving from master to ex10
+9e7a3625389a71293bb52d69fd614b6321683404 06d0dd323c45cef290630f91ad8e30f2a0acd49e fouren <andrewfouren677@gmail.com> 1532441417 +0300	commit: blockchain
+06d0dd323c45cef290630f91ad8e30f2a0acd49e 3fec4ea37bb9b98f7fda9c7ea02dfc119b3ba2c3 fouren <andrewfouren677@gmail.com> 1532600522 +0300	commit: blockchain_done
+3fec4ea37bb9b98f7fda9c7ea02dfc119b3ba2c3 9e7a3625389a71293bb52d69fd614b6321683404 fouren <andrewfouren677@gmail.com> 1532953140 +0300	checkout: moving from ex10 to master
+9e7a3625389a71293bb52d69fd614b6321683404 1a6585697e43734570ce9b86a2f3db0ceb21df93 fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: checkout base/master
+1a6585697e43734570ce9b86a2f3db0ceb21df93 7d38c8703d700204df7aa8248fb81a8b5fb6227d fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex01_done
+7d38c8703d700204df7aa8248fb81a8b5fb6227d c7a5e7a622acdba9cbed4a40e65ea1d824a7f166 fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex02_done
+c7a5e7a622acdba9cbed4a40e65ea1d824a7f166 78d55d1385e4e6565ac05b31aebec598bfb4f2da fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex03_done
+78d55d1385e4e6565ac05b31aebec598bfb4f2da 48dde21fdb336423eb450ea29c5c468ba4b12412 fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex04_done
+48dde21fdb336423eb450ea29c5c468ba4b12412 621dad149727d9286c70c51dcd05f91f014fbb1c fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex01_done
+621dad149727d9286c70c51dcd05f91f014fbb1c eb96d18d48d26c5581861ea40430e68f512ee18b fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex04_done
+eb96d18d48d26c5581861ea40430e68f512ee18b 382d7f8039047497f21f2a21a6992a6067cdf3a7 fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex03_done
+382d7f8039047497f21f2a21a6992a6067cdf3a7 5024bcff308ec382e214a7f2836b2a4474afbc89 fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex06
+5024bcff308ec382e214a7f2836b2a4474afbc89 bb8f1e9eb923bf2cad0a98119ebbcf84cae1a15a fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex05_done
+bb8f1e9eb923bf2cad0a98119ebbcf84cae1a15a 5e10d664c00c9b9ac487103c01b8d0131d7176ee fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex01_done
+5e10d664c00c9b9ac487103c01b8d0131d7176ee 411b1abc54cac2d8537c57f3bac2c0f9c89c6a6a fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex03_done
+411b1abc54cac2d8537c57f3bac2c0f9c89c6a6a 50f9b3f8d91986ec849b11239f4e9f62ab83e6f9 fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex04_done
+50f9b3f8d91986ec849b11239f4e9f62ab83e6f9 f8ffba69584bd28ec01c7f67b0a99179a7dcfc9a fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex01_done
+f8ffba69584bd28ec01c7f67b0a99179a7dcfc9a 3b60be90b51f73c2581c5b10aef714259389468a fouren <andrewfouren677@gmail.com> 1533022492 +0300	rebase: ex03_done
+3b60be90b51f73c2581c5b10aef714259389468a fe9e8da40a24a5ef52947078cb06ed3e3cfba87d fouren <andrewfouren677@gmail.com> 1533022659 +0300	rebase: ex09_done
+fe9e8da40a24a5ef52947078cb06ed3e3cfba87d fe9e8da40a24a5ef52947078cb06ed3e3cfba87d fouren <andrewfouren677@gmail.com> 1533022659 +0300	rebase finished: returning to refs/heads/master
+fe9e8da40a24a5ef52947078cb06ed3e3cfba87d ce1434bfda6eefe42514e54fbf39459ff7b5c273 fouren <andrewfouren677@gmail.com> 1533046221 +0300	checkout: moving from master to ex07
+ce1434bfda6eefe42514e54fbf39459ff7b5c273 1816f933d20e89f0e83477918382c794b9e07455 fouren <andrewfouren677@gmail.com> 1533046244 +0300	commit: needFix
+                                                                                                                                                              

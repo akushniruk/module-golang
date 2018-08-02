@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 4023353ca71da0fdc6c1dd27f4a0f7011fa57145 fouren <andrewfouren677@gmail.com> 1531478837 +0300	branch: Created from HEAD
+4023353ca71da0fdc6c1dd27f4a0f7011fa57145 6f7cab8deee991d0fc68958cd777b460f7ee45be fouren <andrewfouren677@gmail.com> 1531478909 +0300	commit: ex04_done
+6f7cab8deee991d0fc68958cd777b460f7ee45be 0792fee0e82edc6a9b50caf3bf47aca5a9a6a62c fouren <andrewfouren677@gmail.com> 1531479613 +0300	pull origin master: Merge made by the 'recursive' strategy.
+0792fee0e82edc6a9b50caf3bf47aca5a9a6a62c 0fca4a0b5c494d215141bbd9159feaab80d78a19 fouren <andrewfouren677@gmail.com> 1531479669 +0300	commit: fix
+0fca4a0b5c494d215141bbd9159feaab80d78a19 e03f4e8406c7bddb39fb329781bdd0f70e944671 fouren <andrewfouren677@gmail.com> 1531481299 +0300	commit (amend): ex04_done
+e03f4e8406c7bddb39fb329781bdd0f70e944671 d1b507a0c98db22ef24c0f5ed4d4cf88650a308e fouren <andrewfouren677@gmail.com> 1531482496 +0300	commit (amend): ex04_done

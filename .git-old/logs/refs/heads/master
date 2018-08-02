@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 5156e232f42b0ae13dccf885817be920984d0ff2 fouren <andrewfouren677@gmail.com> 1531140128 +0300	clone: from git@github.com:akushniruk/module-golang.git
+5156e232f42b0ae13dccf885817be920984d0ff2 7957ce64fb4f96559d013958330cae8f85139725 fouren <andrewfouren677@gmail.com> 1531217772 +0300	rebase finished: refs/heads/master onto 7957ce64fb4f96559d013958330cae8f85139725
+7957ce64fb4f96559d013958330cae8f85139725 5f36d8edc707b765a3011aeb8a0b2948b50e9548 fouren <andrewfouren677@gmail.com> 1531323015 +0300	merge ex01: Fast-forward
+5f36d8edc707b765a3011aeb8a0b2948b50e9548 c423f4f2688716e99790dae0a598e0b12c9c98b9 fouren <andrewfouren677@gmail.com> 1531323026 +0300	merge ex02: Merge made by the 'recursive' strategy.
+c423f4f2688716e99790dae0a598e0b12c9c98b9 4023353ca71da0fdc6c1dd27f4a0f7011fa57145 fouren <andrewfouren677@gmail.com> 1531470886 +0300	merge ex03: Fast-forward
+4023353ca71da0fdc6c1dd27f4a0f7011fa57145 6f7cab8deee991d0fc68958cd777b460f7ee45be fouren <andrewfouren677@gmail.com> 1531478950 +0300	merge ex04: Fast-forward
+6f7cab8deee991d0fc68958cd777b460f7ee45be 6de792d5e4c3a0d2d3f189387c5e82ac15eb0bae fouren <andrewfouren677@gmail.com> 1531479117 +0300	commit (amend): ex04_done
+6de792d5e4c3a0d2d3f189387c5e82ac15eb0bae 4023353ca71da0fdc6c1dd27f4a0f7011fa57145 fouren <andrewfouren677@gmail.com> 1531479357 +0300	reset: moving to HEAD~1
+4023353ca71da0fdc6c1dd27f4a0f7011fa57145 f7a8d1e81fcbfc07039839b1dbb3724e707a3251 fouren <andrewfouren677@gmail.com> 1531479411 +0300	commit: ex01_done
+f7a8d1e81fcbfc07039839b1dbb3724e707a3251 6ada5933bf42f86982fa44604bb377803cb31968 fouren <andrewfouren677@gmail.com> 1531479484 +0300	commit: ex04
+6ada5933bf42f86982fa44604bb377803cb31968 d1b507a0c98db22ef24c0f5ed4d4cf88650a308e fouren <andrewfouren677@gmail.com> 1531482618 +0300	merge ex04: Fast-forward
+d1b507a0c98db22ef24c0f5ed4d4cf88650a308e c4a16203be4ce4dbbb4bc21d177bd569427c3219 fouren <andrewfouren677@gmail.com> 1531483437 +0300	commit (merge): fix
+c4a16203be4ce4dbbb4bc21d177bd569427c3219 c02bbf6c53d9d185ed807d93c4d1c42b02f9ae55 fouren <andrewfouren677@gmail.com> 1531747239 +0300	merge ex06: Fast-forward
+c02bbf6c53d9d185ed807d93c4d1c42b02f9ae55 dac48ae111547b2d573c096104ef223d99d6159c fouren <andrewfouren677@gmail.com> 1531898117 +0300	rebase finished: refs/heads/master onto bcc10c6d45fdccc4717cf029dc57869863ddc80d
+dac48ae111547b2d573c096104ef223d99d6159c 8984fcf7bf59c340982bf73354f12935c259c7c3 fouren <andrewfouren677@gmail.com> 1531898159 +0300	pull: Merge made by the 'recursive' strategy.
+8984fcf7bf59c340982bf73354f12935c259c7c3 ce1434bfda6eefe42514e54fbf39459ff7b5c273 fouren <andrewfouren677@gmail.com> 1531907238 +0300	merge ex07: Fast-forward
+ce1434bfda6eefe42514e54fbf39459ff7b5c273 ce39ca092a940fe75652dc3a8e30dd2a4da408b9 fouren <andrewfouren677@gmail.com> 1531907240 +0300	merge ex09: Merge made by the 'recursive' strategy.
+ce39ca092a940fe75652dc3a8e30dd2a4da408b9 c8d94135f19fb31ef455b8acd908fd6528489ee5 fouren <andrewfouren677@gmail.com> 1532352155 +0300	commit (amend): Merge branch 'ex09'
+c8d94135f19fb31ef455b8acd908fd6528489ee5 7cbe05bfc32aa6f218b5fc8fd4ddf0aedced5c17 fouren <andrewfouren677@gmail.com> 1532352203 +0300	commit (amend): Merge branch 'ex09'
+7cbe05bfc32aa6f218b5fc8fd4ddf0aedced5c17 9507194bf044bb294b4a45db5029221316b62361 fouren <andrewfouren677@gmail.com> 1532352510 +0300	rebase finished: refs/heads/master onto bcc10c6d45fdccc4717cf029dc57869863ddc80d
+9507194bf044bb294b4a45db5029221316b62361 163f11227e5ea77f0560a8f004a3aee9897f02ab fouren <andrewfouren677@gmail.com> 1532352698 +0300	rebase finished: refs/heads/master onto c94959666a00870a73a8b10e581db5bad26bfcd7
+163f11227e5ea77f0560a8f004a3aee9897f02ab 9e7a3625389a71293bb52d69fd614b6321683404 fouren <andrewfouren677@gmail.com> 1532352713 +0300	commit (amend): ex09_done
+9e7a3625389a71293bb52d69fd614b6321683404 fe9e8da40a24a5ef52947078cb06ed3e3cfba87d fouren <andrewfouren677@gmail.com> 1533022659 +0300	rebase finished: refs/heads/master onto 1a6585697e43734570ce9b86a2f3db0ceb21df93
