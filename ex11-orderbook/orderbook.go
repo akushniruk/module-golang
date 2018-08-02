@@ -50,18 +50,18 @@ func Append(order *Order, Add []*Order, index int) []*Order {
 func (orderbook *Orderbook) TradeAsks(order *Order) ([]*Trade, *Order) {
 	trades := []*Trade{}
 
-	for i := 0; i < len(orderbook.Asks); i++ {
-		a := orderbook.Asks[i]
-		if order.Price <= a.Price {
-			if a.Volume <= order.Volume {
-				trades = append(trades, &Trade{Bid: order, Ask: a, Volume: a.Volume, Price: a.Price})
-				order.Volume -= a.Volume
-				a.Volume = 0
-				orderbook.Asks = append(orderbook.Asks[:i], orderbook.Asks[i+1:]...)
-				i--
+	for count := 0; count < len(orderbook.Asks); count++ {
+		ask := orderbook.Asks[count]
+		if order.Price <= ask.Price {
+			if ask.Volume <= order.Volume {
+				trades = append(trades, &Trade{Bid: order, Ask: ask, Volume: ask.Volume, Price: ask.Price})
+				order.Volume -= ask.Volume
+				ask.Volume = 0
+				orderbook.Asks = append(orderbook.Asks[:count], orderbook.Asks[count+1:]...)
+				count--
 			} else {
-				trades = append(trades, &Trade{Bid: order, Ask: a, Volume: order.Volume, Price: a.Price})
-				a.Volume -= order.Volume
+				trades = append(trades, &Trade{Bid: order, Ask: ask, Volume: order.Volume, Price: ask.Price})
+				ask.Volume -= order.Volume
 				order.Volume = 0
 				return trades, nil
 			}
@@ -79,18 +79,18 @@ func (orderbook *Orderbook) TradeAsks(order *Order) ([]*Trade, *Order) {
 
 }
 
-func (orderbook *Orderbook) TradeBids(order *Order) ([]*Trade, *Order) {
+func (orderbook *Orderbook) TradeBids(order *Order) {
 	trades := []*Trade{}
 
-	for i := 0; i < len(orderbook.Bids); i++ {
-		bid := orderbook.Bids[i]
+	for count := 0; count < len(orderbook.Bids); count++ {
+		bid := orderbook.Bids[count]
 		if order.Price == 0 || bid.Price <= order.Price {
 			if bid.Volume <= order.Volume {
 				trades = append(trades, &Trade{Bid: bid, Ask: order, Volume: bid.Volume, Price: bid.Price})
 				order.Volume -= bid.Volume
 				bid.Volume = 0
-				orderbook.Bids = append(orderbook.Bids[:i], orderbook.Bids[i+1:]...)
-				i--
+				orderbook.Bids = append(orderbook.Bids[:count], orderbook.Bids[count+1:]...)
+				count--
 			} else {
 				trades = append(trades, &Trade{Bid: bid, Ask: order, Volume: order.Volume, Price: bid.Price})
 				bid.Volume -= order.Volume
@@ -103,7 +103,6 @@ func (orderbook *Orderbook) TradeBids(order *Order) ([]*Trade, *Order) {
 			break
 		}
 	}
-
 	if order.Kind == 1 {
 		return trades, order
 	} else {
