@@ -1,7 +1,8 @@
 package blockchain
 
 const Filename = "data.json"
-const diff = 2
+
+var Difficulty int = 1
 
 type Block struct {
 	Index     int    `json:"index"`

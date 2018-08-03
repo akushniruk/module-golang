@@ -17,8 +17,8 @@ func calculateHash(block Block) string {
 	return hex.EncodeToString(hashed)
 }
 
-func isHashValid(hash string, target int) bool {
-	prefix := strings.Repeat("0", target)
+func isHashValid(hash string, diff int) bool {
+	prefix := strings.Repeat("0", diff)
 	return strings.HasPrefix(hash, prefix)
 }
 
@@ -43,18 +43,17 @@ func generateBlock(oldBlock Block, purchase string, cash int) Block {
 	newBlock.PrevHash = oldBlock.Hash
 	newBlock.Hash = calculateHash(newBlock)
 
-	newBlock.Diff = diff
+	newBlock.Diff = Difficulty
 	for count := 0; ; count++ {
 		hex := fmt.Sprintf("%d", count)
 		newBlock.Nonce = hex
 		if !isBlockValid(newBlock, oldBlock) {
 			if !isHashValid(calculateHash(newBlock), newBlock.Diff) {
 				time.Sleep(time.Second / 100)
-				fmt.Println(calculateHash(newBlock), "NO")
 				continue
 			} else {
-				fmt.Println(calculateHash(newBlock), "OK!")
 				newBlock.Hash = calculateHash(newBlock)
+				fmt.Println(calculateHash(newBlock), "OK!")
 				break
 			}
 		}
@@ -66,7 +65,7 @@ func generateBlock(oldBlock Block, purchase string, cash int) Block {
 func genesisBlock() Block {
 	t := time.Now()
 	block := Block{}
-	block = Block{0, t.String(), "", 0, calculateHash(block), "", diff, ""}
+	block = Block{0, t.String(), "", 0, calculateHash(block), "", Difficulty, ""}
 	return block
 }
 
