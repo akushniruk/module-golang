@@ -49,8 +49,8 @@ func generateBlock(oldBlock Block, purchase string, cash int) Block {
 		newBlock.Nonce = hex
 		if !isBlockValid(newBlock, oldBlock) {
 			if !isHashValid(calculateHash(newBlock), newBlock.Diff) {
-				time.Sleep(time.Second / 10)
-				fmt.Println(calculateHash(newBlock), "NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO")
+				time.Sleep(time.Second / 100)
+				fmt.Println(calculateHash(newBlock), "NO")
 				continue
 			} else {
 				fmt.Println(calculateHash(newBlock), "OK!")
