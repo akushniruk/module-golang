@@ -15,7 +15,6 @@ func List() {
 		fmt.Println("Cash: " + strconv.Itoa(block.Blocks[count].Cash))
 		fmt.Println("Hash: " + block.Blocks[count].Hash)
 		fmt.Println("Prev. hash: " + block.Blocks[count].PrevHash)
-		fmt.Println("DIFF: " + strconv.Itoa(block.Blocks[count].Diff))
 		fmt.Println("")
 	}
 }
