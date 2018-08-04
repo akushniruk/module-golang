@@ -22,7 +22,7 @@ func FibonacciResult(n int) *big.Int {
 		if count <= 2 {
 			f.SetUint64(1)
 		} else {
-			f = f.Add(fn[i-1], fn[i-2])
+			f = f.Add(fn[count-1], fn[count-2])
 		}
 		fn[i] = f
 
